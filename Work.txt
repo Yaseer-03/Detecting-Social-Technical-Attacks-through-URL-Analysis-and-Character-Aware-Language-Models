@@ -1,0 +1,31 @@
+A URL Based Social Semantic Attacks Detection With Character-Aware Language Model
+
+
+
+IEEE Transaction on Dependable and Secure Computing,volume:11,Issue Date:31.January.2023
+
+
+
+
+Uid 	 
+Url 	
+ranking	
+activeDuration 	
+urlLen 	
+attacktype 	
+datatype 
+AHashcode 
+DHashcode 
+ 
+
+CREATE TABLE `reviews` (
+  `id` int(11) NOT NULL auto_increment,
+  `pid` text,
+  `point_name` text,
+  `latitude_radian` text,
+  `longitude_radian` text,
+  `feedback` text,
+  `username` text,
+  `dt` text,
+  PRIMARY KEY  (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
